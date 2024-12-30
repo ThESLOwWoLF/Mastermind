@@ -133,13 +133,13 @@ class Level2Game {
                 
                 switch (action) {
                     case 'nextLevel':
-                        window.location.href = 'level3.html';
+                        window.location.reload();
                         break;
                     case 'retry':
                         window.location.reload();
                         break;
                     case 'exit':
-                        window.location.href = 'index.html';
+                        window.location.href = 'easy.html';
                         break;
                 }
             }

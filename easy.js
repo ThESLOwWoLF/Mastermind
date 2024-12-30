@@ -122,7 +122,7 @@ class Level1Game {
                 
                 switch (action) {
                     case 'nextLevel':
-                        window.location.href = 'level2.html';
+                        window.location.href = 'intermediate.html';
                         break;
                     case 'retry':
                         window.location.reload();
