@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Decode the Colors - Level 2</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Decode the Colors - Level 2</h2>
+            <p class="moves">Moves Left: <span id="moves">6</span></p>
+        </header>
+        <main class="game_area">
+            <div class="game-board">
+                <p>Fill the circles with the correct colours</p>
+                <div class="circles">
+                    <div class="circle" id="circle1"></div>
+                    <div class="circle" id="circle2"></div>
+                    <div class="circle" id="circle3"></div>
+                </div>
+                <div class="colour_picker">
+                    <button class="color purple" data-color="purple"></button>
+                    <button class="color orange" data-color="orange"></button>
+                    <button class="color green" data-color="green"></button>
+                    <button class="color yellow" data-color="yellow"></button>
+                    <button class="color blue" data-color="blue"></button>
+                </div>
+                <button class="submit" id="submit">Submit</button>
+            </div>
+            <div class="move-order">
+                <h2>Move Order</h2>
+                <ol id="moves-list"></ol>
+            </div>
+        </main>
+        <button class="exit" id="exit">Exit</button>
+    </div>
+    <script src="intermediate.js"></script>
+</body>
+</html>
